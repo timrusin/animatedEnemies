@@ -7,8 +7,13 @@
     <title>NPC movement animations</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
-    <canvas id="canvas1"></canvas>
-
+    <div id="container">
+        <canvas id="canvas1"></canvas>
+        <p>Number of Bats <span id='showNumber'></span></p>
+        <input type="range" min="0" max="100" value="2" class="numberSlider" id="numberSlider">
+        <p>Size of Bats <span id='showSize'></span></p>
+        <input type="range" min="0" max="50" value="2" class="sizeSlider" id="sizeSlider">
+    </div>
     <script src="script.js"></script>
 <body>
     
