@@ -3,7 +3,7 @@ const canvas = document.getElementById('canvas1')
 const ctx = canvas.getContext('2d');
 CANVAS_WIDTH = canvas.width = 250;
 CANVAS_HEGIHT = canvas.height = 500;
-let numberOfEnemies = 10;
+let numberOfEnemies = 15;
 let enemySize = 3;
 gameFrame = 0;
 const enemiesArray = [];
@@ -67,4 +67,5 @@ const enemiesArray = [];
         }
     animate()
 
-
+//project 3 complete
+//https://www.youtube.com/watch?v=GFO_txvwK_c&t=1600s
